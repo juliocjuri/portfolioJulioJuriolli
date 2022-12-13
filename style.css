@@ -8,6 +8,10 @@ header {
      width: 940px;
 }
 
+.logo-principal{
+     width: 400px;
+}
+
 nav {
      position: absolute;
      right: 0;
@@ -16,6 +20,10 @@ nav {
 
 nav li{
      display: inline-block;
+     margin-right: 10px;
+     font-size: 23px;
+     text-transform: uppercase;
+     font-family: sans-serif;
 }
 
 main {
