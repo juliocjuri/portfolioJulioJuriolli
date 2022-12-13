@@ -27,11 +27,32 @@ nav li{
 }
 
 main {
-     background: #CCC;
+     width: 940px;
+     margin: 0 auto
+}
+
+.conteudo-principal p{
+     font-size: 22px;
+     margin: 15px 0 0 0 ;
+}
+
+.titulo-principal{
+     font-size: 30px;
+     font-weight: bold;
+     font-family: sans-serif;
+     text-align: center;
+     clear: left
+}
+
+.foto-julio{
+     width: 270px;
+     float: left;
+     margin: 0 10px 0 0;
 }
 
 footer {
-     background: url(bg.jpg);
+     background: url(imagens/bg.jpg);
+     clear: left
 }
 
 .logo {
