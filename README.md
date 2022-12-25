@@ -4,4 +4,3 @@ Neste repositório você encontra o desenvolvimento de uma aplicação HTML com 
 
 ![Imagem de exemplo](videos/video.gif)
 
-[<img src="imagens/readmeexample.jpg" width="50%">](videos/video.mp4)
