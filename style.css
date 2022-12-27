@@ -89,6 +89,31 @@ main {
      margin: 0 35px 0 0;
 }
 
+.tecnologias{
+     margin: 150px 0 0 0;
+}
+
+.tecnologias-conteudo{
+     display: flex; 
+     justify-content: space-evenly;
+     margin-top: 7%;
+}
+
+.tecnologias-conteudo h3{
+     text-align: center;
+     margin: 10px;
+     font-weight: bold;
+}
+
+.tecnologias-item {
+     
+}
+
+.tecnologia-imagem{
+     width: 100px;
+     margin-left: 10px;
+}
+
 footer {
      background: url(imagens/bg.jpg);
      clear: left
