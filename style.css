@@ -17,6 +17,11 @@ header {
      width: 940px;
 }
 
+.conteudo-principal{
+     width: 940px;
+     margin: 150px auto;
+}
+
 .conteudo-principal a {
      text-decoration: none;
      transition: 0.5s all;
@@ -60,6 +65,7 @@ header a{
 }
 
 main {
+
 }
 
 .banner{
@@ -95,6 +101,7 @@ main {
      display: flex; 
      justify-content: space-evenly;
      margin-top: 7%;
+     margin-bottom: 7%;
 }
 
 .tecnologias-conteudo h3{
