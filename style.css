@@ -60,8 +60,6 @@ header a{
 }
 
 main {
-     width: 940px;
-     margin: 150px auto;
 }
 
 .banner{
@@ -80,7 +78,7 @@ main {
      font-family: sans-serif;
      text-align: center;
      clear: left;
-     margin: 0 0 25px 0;
+     margin: 10px 0 25px 0;
 }
 
 .foto-julio{
@@ -136,4 +134,30 @@ footer p {
      color: white;
      padding: 5px 0 40px;
      font-size: 13px;
+}
+
+@media screen and (max-width: 480px) {
+     .caixa, .conteudo-principal { 
+          width: auto;
+     }
+
+     /* Para colocar uma margin de auto, colocar um display block */
+     .logo-principal {
+          margin: auto;
+          display: block;
+          width: 80%;
+     }
+
+     /* O conteudo justificado com space-evenly funciona apenas com o display flex*/
+     nav {
+          position:relative;
+          margin-bottom: 50px;
+          display: flex; 
+          justify-content: space-evenly;
+     }
+     
+     nav li{
+          margin-right: 10px;
+          font-weight: bold;
+     }
 }
