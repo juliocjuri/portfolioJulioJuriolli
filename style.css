@@ -94,7 +94,7 @@ main {
 }
 
 .tecnologias{
-     margin: 150px 0 0 0;
+     margin: 100px 0 0 0;
 }
 
 .tecnologias-conteudo{
@@ -145,6 +145,7 @@ footer p {
 
 @media screen and (max-width: 480px) {
      .caixa, .conteudo-principal { 
+          margin: auto;
           width: auto;
      }
 
@@ -165,6 +166,24 @@ footer p {
      
      nav li{
           margin-right: 10px;
-          font-weight: bold;
      }
+
+     .foto-julio {
+          display: block;
+          width: 150px;
+          float: none;
+          margin: auto;
+     }
+     
+     .conteudo-principal p{
+          font-size: 20px;
+          line-height: 25px;
+          text-align: center;
+          margin: 40px 20px
+     }
+
+     .banner{
+          margin-bottom: 30px;
+     }
+
 }
