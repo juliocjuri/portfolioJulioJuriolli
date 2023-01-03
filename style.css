@@ -115,8 +115,8 @@ main {
 }
 
 .tecnologia-imagem{
-     width: 100px;
-     margin-left: 10px;
+     height: 100px;
+     margin: auto;
 }
 
 footer {
