@@ -115,6 +115,7 @@ main {
 }
 
 .tecnologia-imagem{
+     display: flex;
      height: 100px;
      margin: auto;
 }
@@ -185,5 +186,12 @@ footer p {
      .banner{
           margin-bottom: 30px;
      }
+
+     .tecnologia-imagem{
+          display: flex;
+          height: 60px;
+          margin: auto;
+     }
+     
 
 }
